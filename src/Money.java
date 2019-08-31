@@ -1,6 +1,7 @@
-public class Money {import java.util.Scanner;
+import java.util.Scanner;
 
-    class Rupees {
+public class Money {
+
         public static void main(String[] args) {
             Scanner s = new Scanner(System.in);
             double price;
@@ -11,9 +12,6 @@ public class Money {import java.util.Scanner;
             amount = Math.round(price * 100);
             rupee = amount / 100;
             paise = amount % 100;
-            System.out.println(rupee + "Rupees" + paise + "paise");
+            System.out.println(rupee + " Rupees " + paise + " paise ");
         }
     }
-
-
-}
